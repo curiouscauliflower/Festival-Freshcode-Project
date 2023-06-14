@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.header {
+    margin-bottom: 142px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    margin: 40px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 42px;
+    margin: 40px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+.menu-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu-button {
+    padding: 21px 28px;
+    background-color: #7AE5FD;
+    border-radius: 87px;
+    text-transform: uppercase;
+}
+
+.image-block {
+    position: relative;
+    top: -154px;
+    right: -370px;
+    z-index: 1;
+}
+
+.text-block {
+    position: absolute;
+}
+
+.text-block__title {
+    font-weight: 800;
+    font-size: 94px;
+    line-height: 88px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #9AD2DE;
+    z-index: 0;
+    margin-top: 48px;
+    margin-left: 40px;
+    margin-bottom: 64px;
+}
+
+.text-block__paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    z-index: 0;
+    margin-left: 40px;
+}
+
+.main-section__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 2px;
+}
+
+.main-section__first-paraghraph {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+.main-section__second-paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #73A6B1;
+    margin: 0;
+}
+
+.victory-section,
+.music-section,
+.master-class-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F1FDFF;
+    width: 1240px;
+    height: 528px;
+    margin: 68px auto;
+    border-radius: 10px;
+}
+
+.victory-section__block,
+.music-section__block,
+.master-class-section__block {
+    margin: 40px;
+}
+
+.victory-section__title,
+.music-section__title,
+.master-class-section__title {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.title-block {
+    width: 500px;
+    margin-bottom: 45px;
+}
+
+.victory-section__paragraph {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 45px;
+    padding: 0;
+    margin: 0 0 45px;
+}
+
+.victory-section__schedule,
+.music-section__schedule,
+.master-class-section__schedule {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+}
+
+.victory-section__time,
+.music-section__time,
+.master-class-section__time {
+    font-size: 16px;
+    line-height: 19px;
+    color: #3D8C9D;
+    margin-bottom: 35px;
+}
+
+.victory-section__img,
+.music-section__img,
+.master-class-section__img {
+    border-radius: 10px;
+}
+
+.info-btn,
+.donate-btn {
+    padding: 21px 35px;
+    background-color: #7AE5FD;
+    border-radius: 87px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.info-link,
+.donate-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gifts-section {
+    position: relative;
+    left: 24px;
+    margin-top: 42px;
+    width: 1285px;
+    height: 738px;
+    margin-bottom: 68px;
+}
+
+.rectangle-block {
+    position: relative;
+    top: -470px;
+    left: 38px;
+}
+
+.gift-section__text {
+    position: relative;
+    top: -220px;
+    left: 50px;
+    box-sizing: border-box;
+    width: 400px;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.gifts-img {
+    position: relative;
+    top: -510px;
+    right: -650px;
+}
+
+.how-to-get {
+    margin-bottom: 140px;
+}
+
+.how-to-get__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0px 0px 4px;
+}
+
+.how-to-get__text {
+    font-size: 20px;
+    line-height: 24x;
+    text-align: center;
+    color: #73A6B1;
+    margin: 0px 0px 76px;
+}
+
+.main-goal {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0px 0px 16px;
+}
+
+.main-goal__container {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+    justify-content: center;
+    margin: 0px 0px 56px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.border {
+    border-right: 2px solid #9AD2DE;
+}
+
+.footer-section {
+    background: #F9FADF;
+    border-radius: 10px;
+    height: 1008px;
+}
+
+.contacts-section__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1038px;
+    height: 232px;
+    gap: 258px;
+    position: relative;
+    top: 56px;
+    left: 100px;
+    margin-bottom: 100px;
+}
+
+.contacts-section__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 8px 0px 0px;
+}
+
+.contacts-section__info {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.contacts-section__text {
+    margin-bottom: 58px;
+}
+
+.mailing-list__container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 70px;
+    width: 1174px;
+    height: 494px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+.mailing-list__img {
+    position: relative;
+    top: 36px;
+    left: 20px;
+}
+
+.mailing-list__text {
+    font-size: 27px;
+    line-height: 32px;
+    margin: 54px 0px 40px;
+}
+
+.input-field {
+    padding: 21px 40px 21px 43px;
+    background: #F9FADF;
+    border-radius: 61px;
+    width: 72%;
+    font-size: 20px;
+    line-height: 24px;
+    color: inherit;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.subscribe-btn {
+    padding: 22px 173px;
+    background: #7AE5FD;
+    border-radius: 61px;
+    border: none;
+    width: 506px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.subscribe-link {
+    text-decoration: none;
+    color: inherit;
+}
